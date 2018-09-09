@@ -35,6 +35,34 @@ body {
     width: 100%;
     color: #e7e7e7;
     font-weight: bold;
+    /*background-image:  url("../img/background.png");
+    background-repeat: repeat;*/
+}
+
+.quote{
+    font-size: 48px;
+    text-align: right;
+    color:#f04b4c;
+    padding-right:35px;
+    padding-top:50px;
+}
+
+.quote_container{
+    border-radius:15px;
+    height: 100%;
+    width: 100%;
+    background-size:cover; 
+    background-image:    url("../img/marcusaurelius.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.quote_filter{
+    border-radius:15px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255,255,255,0.7);
 }
 
 .picture_content{
@@ -195,3 +223,6 @@ a:hover{
     color: #f04b4c;
 }
 
+p{
+    margin:0;
+}
