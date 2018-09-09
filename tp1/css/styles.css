@@ -1,0 +1,197 @@
+body {
+    background-color:white;
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:1000px;;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    min-width: 950px;
+    top: 0;
+    left: 0;
+}
+
+.headerNav{
+    padding:15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.headerInner{
+    text-align: right;
+    width: 100%;
+    height: 50%;
+    padding:25px;
+}
+
+.insideLink{
+    padding: 50px;
+}
+
+.canvas{
+    padding: 100px 0 100px;
+    height: 2000px;
+    width: 100%;
+    color: #e7e7e7;
+    font-weight: bold;
+}
+
+.picture_content{
+    padding:25px;
+    float: left;
+}
+
+.desc_content{
+    text-align: left;
+    font-size: 20px;
+    padding:25px;
+}
+
+.canvas_Container{
+    height: 700px;
+    width: 90%;
+    padding:5%;
+}
+
+.job_Desc{
+    height: 500px;
+    margin:auto;
+    padding:50px;
+    font-size: 24px;
+}
+
+.personal_desc{
+    padding:15px;
+    background: #f04b4c;
+    color:white;
+}
+
+.personalPicture{
+    padding:15px;
+    width:370px;
+    height: 440px;
+    border-radius: 50%;
+    border-style: double;
+    float: left;
+}
+
+.job_Container{
+    border-radius:15px;
+    height: 100%;
+    width: 100%;
+    background-size:cover; 
+    background-image:    url("../img/eckinox-media.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.job_Filter{
+    border-radius:15px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+        to top,
+        white, 
+        transparent
+      );
+    background-color: rgb(61,96,152,0.8);
+}
+
+.personalLogo{
+    padding:15px;
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    top:0;
+    left:0;
+}
+
+.topBanner{
+    height: 100px;
+    width: 100%;
+    background: #e7e7e7;
+    top:0;
+    left:0;
+    min-width: 950px;
+    position:absolute;
+    z-index: 3000;
+    position: fixed;
+    border-bottom: 2px solid black;
+}
+
+.linkBtn{
+    background-size: cover;
+    border:none;
+    height: 50px;
+    width: 50px;
+}
+
+.footer{
+    width: 100%;
+    height: 250px;
+    padding:25px 0 25px;
+    background: #e7e7e7;
+    color:black;
+    z-index: 1;
+    border-top: 2px solid black;
+}
+
+.container{
+    position: relative;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.socialMedia{
+    text-align: center;
+}
+
+.mediaIcon{
+    padding: 15px;
+    filter: brightness(50%) grayscale(100%);
+}
+
+.mediaIconEckinox{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    padding: 15px;
+    filter: brightness(50%) grayscale(100%);
+}
+
+.mediaIconEckinox:hover{
+    filter: brightness(100%) grayscale(0%);
+}
+
+.mediaIcon:hover{
+    filter: brightness(100%) grayscale(0%);
+}
+
+.copyright{
+    font-size: 12px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.contactMe{
+    font-size: 20px;
+}
+
+a{ 
+    color: inherit; 
+    text-decoration: none;
+} 
+
+a:hover{
+    color: #f04b4c;
+}
+
