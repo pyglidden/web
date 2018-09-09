@@ -1,0 +1,38 @@
+.personalLogo{
+    padding:15px;
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    top:0;
+    left:0;
+}
+
+.topBanner{
+    height: 100px;
+    width: 100%;
+    background: #e7e7e7;
+    top:0;
+    left:0;
+    min-width: 950px;
+    position:absolute;
+    z-index: 3000;
+    position: fixed;
+    border-bottom: 2px solid black;
+}
+
+.insideLink{
+    padding: 35px;
+}
+
+.headerNav{
+    padding:15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.headerInner{
+    text-align: right;
+    width: 100%;
+    height: 50%;
+    padding:25px;
+}

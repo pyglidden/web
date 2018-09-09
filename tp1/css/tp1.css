@@ -1,0 +1,85 @@
+body {
+    background-color:yellow;
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:18px;
+    height:1000px;;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    min-width: 950px;
+    top: 0;
+    left: 0;
+}
+
+.alert{
+    background-color: rgba(145, 125, 11, 0.8);
+}
+
+.newsPic{
+    height: 250px;
+    float: left;
+    border-radius:5px;
+}
+
+.loremPic{
+    height: 250px;
+    float: right;
+    border-radius:5px;
+}
+
+.canvas{
+    padding: 100px 0 100px;
+    height: 2000px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: navy;
+    font-weight: bold;
+    /*background-image:  url("../img/background.png");
+    background-repeat: repeat;*/
+}
+
+h4{
+    font-size: 24px;
+    font-weight: bold;
+    color: grey;
+    text-align: center;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    color:gold;
+    text-align: center;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bold;
+    color:sienna;
+    text-align: center;
+}
+
+li{
+    margin-left:200px;
+}
+
+.tpLink{
+    color:red;
+    font-style: italic;
+}
+
+.backLink{
+    color:green;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.Columndiv {
+    background-color: aqua;
+    padding:50px;
+    column-count: 3;
+    border: 10px solid pink;
+    border-style: dotted;
+}
