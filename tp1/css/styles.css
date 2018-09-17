@@ -1,7 +1,7 @@
 body {
     background-color:white;
     background-attachment:fixed;
-    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif;
     font-size:12px;
     height:1000px;;
     margin:0px;
@@ -16,7 +16,7 @@ body {
     padding: 100px 0 100px;
     height: 2000px;
     width: 100%;
-    color: #e7e7e7;
+    color: black;
     font-weight: bold;
     /*background-image:  url("../img/background.png");
     background-repeat: repeat;*/
@@ -31,7 +31,7 @@ body {
 }
 
 .quote_container{
-    border-radius:15px;
+    border-radius:5px;
     height: 100%;
     width: 100%;
     background-size:cover; 
@@ -42,7 +42,7 @@ body {
 }
 
 .quote_filter{
-    border-radius:15px;
+    border-radius:5px;
     height: 100%;
     width: 100%;
     background-color: rgb(255,255,255,0.7);
@@ -61,8 +61,9 @@ body {
 
 .canvas_Container{
     height: 700px;
-    width: 90%;
+    width: 100%;
     padding:5%;
+    box-sizing: border-box;
 }
 
 .job_Desc{
@@ -88,7 +89,7 @@ body {
 }
 
 .job_Container{
-    border-radius:15px;
+    border-radius:5px;
     height: 100%;
     width: 100%;
     background-size:cover; 
@@ -98,8 +99,46 @@ body {
     background-position: center center; 
 }
 
+.cubi18{
+    border-radius:5px;
+    height: 100%;
+    width: 100%;
+    background-size:cover; 
+    background-image:    url("../img/cubi2018.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.jam18{
+    border-radius:5px;
+    height: 100%;
+    width: 100%;
+    background-size:cover; 
+    background-image:    url("../img/gamejam2018.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+.project_Filter{
+    border-radius:5px;
+    height: 100%;
+    width: 100%;
+    padding:20px;
+    background-color: rgb(255,255,255,0.8);
+    box-sizing: border-box;
+}
+
+.project_Container{
+    height: 500px;
+    width: 100%;
+    padding:5%;
+    box-sizing: border-box;
+}
+
 .job_Filter{
-    border-radius:15px;
+    border-radius:5px;
     height: 100%;
     width: 100%;
     background: linear-gradient(
@@ -113,4 +152,45 @@ body {
 h1{
     font-size: 48px;
     font-weight: bold;
+    margin:0;
+}
+
+.quote p{
+    margin:0;
+}
+
+.resume{
+    height: 100%;
+    width: 100%;
+    padding-top:30px;
+    padding-left:100px;
+    padding-right:100px;
+    box-sizing: border-box;
+}
+
+.resume h2{
+    text-transform: uppercase;
+    background-color: rgb(61,96,152);
+    color:white;
+    font-size:24px;
+}
+
+.resume p{
+    color:rgb(61,96,152);
+    font-size:18px;
+    margin:0;
+}
+
+.resume td{
+    padding-top:10px;
+    vertical-align: top;
+}
+
+.resume table{
+    width:100%;
+}
+
+.resume tr{
+    width:100%;
+    padding-top:10px;
 }
