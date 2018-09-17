@@ -173,6 +173,8 @@ h1{
     background-color: rgb(61,96,152);
     color:white;
     font-size:24px;
+    box-sizing: border-box;
+    padding:20px;
 }
 
 .resume p{
