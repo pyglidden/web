@@ -14,7 +14,7 @@ body {
 
 .canvas{
     padding: 100px 0 100px;
-    height: 2000px;
+    height: 2500px;
     width: 100%;
     color: black;
     font-weight: bold;
@@ -175,7 +175,7 @@ h1{
     text-transform: uppercase;
     background-color: rgb(61,96,152);
     color:white;
-    font-size:24px;
+    font-size:20px;
     box-sizing: border-box;
     padding:20px;
 }
@@ -198,25 +198,27 @@ h1{
 }
 
 .resume div{
-    padding-top:30px;
-    padding-bottom:30px;
-    padding-left:100px;
-    padding-right:100px;
+    min-height: 125px;
+    padding:50px;
     border-bottom: 2px dashed rgb(61,96,152);
 }
 
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid rgba(61,96,152);
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .contactForm{
+    color: rgba(61,96,152);
+    font-weight: bold;
+    font-size: 22px;
     display: inline-block;
     width: 49%;
     height: 100%;
@@ -224,8 +226,22 @@ input[type=text], select, textarea {
     box-sizing: border-box;
 }
 
+.contactForm ::placeholder{
+    color: rgba(61,96,152, 0.6);
+}
+
 .contactForm div{
     width: 49%;
     display: inline-block;
     box-sizing: border-box;
+}
+
+.submitBtn{
+    background-color: #f04b4c;
+    height: 50px;
+    width: 100px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
