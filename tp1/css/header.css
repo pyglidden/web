@@ -10,14 +10,13 @@
 .topBanner{
     height: 100px;
     width: 100%;
-    background: #e7e7e7;
+    background: rgba(231,231,231,0.7);
     top:0;
     left:0;
     min-width: 950px;
     position:absolute;
     z-index: 3000;
     position: fixed;
-    border-bottom: 2px solid black;
 }
 
 .insideLink{
