@@ -18,8 +18,18 @@ body {
     width: 100%;
     color: black;
     font-weight: bold;
-    /*background-image:  url("../img/background.png");
-    background-repeat: repeat;*/
+}
+
+.contact_canvas{
+    padding: 100px 0 100px;
+    height: 500px;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+}
+
+.contact_canvas form{
+    float: right;
 }
 
 .quote{
@@ -61,6 +71,13 @@ body {
 
 .canvas_Container{
     height: 700px;
+    width: 100%;
+    padding:5%;
+    box-sizing: border-box;
+}
+
+.quote_canvas_Container{
+    height: 350px;
     width: 100%;
     padding:5%;
     box-sizing: border-box;
@@ -176,6 +193,15 @@ h1{
     box-sizing: border-box;
 }
 
+.resumeTitle{
+    justify-content: center;     
+    display: flex;
+}
+
+.lastDiv{
+    border:none !important;
+}
+
 .resume h2{
     margin: 0;
     margin-right: 5%;
@@ -235,6 +261,10 @@ input[type=text], select, textarea {
     height: 100%;
     padding:5%;
     box-sizing: border-box;
+}
+
+.contactForm textarea{
+    height:200px
 }
 
 .contactForm ::placeholder{

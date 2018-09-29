@@ -1,0 +1,11 @@
+Bonjour!
+
+Il est préférable de lancer le site à l'aide d'un serveur local, sinon le header et le footer ne seront pas présent dans les pages web
+
+proposition de servez: 
+https://github.com/greggman/servez
+
+Merci!
+
+Pierre-Yves Glidden
+glip29109002
