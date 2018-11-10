@@ -1,8 +1,0 @@
-.selectorImg {
-    filter: blur(1px) grayscale(75%);
-    background: url('../img/helicopter-sprite.png');
-    width: 1080px;
-    height: 1168px;
-    margin-top:20px;
-    margin:auto;
-  }
