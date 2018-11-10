@@ -1,5 +1,8 @@
 window.onload=function(){
 
+    document.getElementById('about').style.backgroundColor = 'lightskyblue';
+    document.getElementById('details').style.backgroundColor = 'lightskyblue';
+
     var helicopterImg = new Image();
     helicopterImg.src = "img/helicopter-sprite.png";
 
