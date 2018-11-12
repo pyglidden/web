@@ -15,3 +15,8 @@
   .questionBtn:hover{
     background-color: green !important;
   }
+
+  .detailPic{
+    width: 250px;
+    float: right;
+  }
