@@ -1,7 +1,7 @@
 
   .selectorCanvas{
     margin-top: 20px;
-    filter: blur(1px) grayscale(75%);
+    filter: blur(2px) grayscale(75%);
     background-image: url('../img/helicopter-sprite.png');
     background-size: contain;
     background-repeat: no-repeat;

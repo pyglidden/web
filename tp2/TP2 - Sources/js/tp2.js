@@ -75,6 +75,8 @@ window.onload=function(){
         canvas.getContext("2d").drawImage(helicopterImg,sourceX,sourceY,540,1168,0,0,540,1168);
         document.getElementById('btnQ3A1').style.backgroundColor = 'green';
         document.getElementById('btnQ3A2').style.backgroundColor = '#fed136';
+        //filter: blur(1px) grayscale(75%);
+        document.getElementById('selectorCanvas').style.filter = 'none';
     });
 
     document.getElementById('btnQ3A2').addEventListener("click", function(){
@@ -86,6 +88,7 @@ window.onload=function(){
         canvas.getContext("2d").drawImage(helicopterImg,sourceX,sourceY,540,1168,0,0,540,1168);
         document.getElementById('btnQ3A1').style.backgroundColor = '#fed136';
         document.getElementById('btnQ3A2').style.backgroundColor = 'green';
+        document.getElementById('selectorCanvas').style.filter = 'none';
     });
 
 }
